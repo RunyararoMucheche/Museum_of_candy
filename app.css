@@ -16,3 +16,22 @@ body {
 #main-navbar .navbar-brand {
   color: #ea1c2c;
 }
+
+#main-navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+#heading-group span {
+  color: #ea1c2c;
+}
+
+#heading-group h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #heading-group h1 {
+    font-size: 3rem;
+  }
+}
