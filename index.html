@@ -68,6 +68,87 @@
         </div>
       </div>
     </section>
+
+    <section class="container-fluid px-0">
+      <div class="row text-center align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="imgs/milk.png" alt="" />
+        </div>
+        <div class="col-md-6 order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img
+                class="d-none d-lg-inline"
+                src="imgs/lolli_icon.png"
+                alt=""
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptas voluptatibus minima commodi! Totam repudiandae aliquid
+                consequuntur vel, rem dolorum consequatur quaerat dolor nemo
+                nisi, numquam, voluptatibus dignissimos atque aspernatur soluta?
+                Rerum placeat iste fugit ducimus. Aliquam quo autem iste dicta!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center align-items-center content">
+        <div class="col-md-6">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img
+                class="d-none d-lg-inline"
+                src="imgs/lolli_icon.png"
+                alt=""
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptas voluptatibus minima commodi! Totam repudiandae aliquid
+                consequuntur vel, rem dolorum consequatur quaerat dolor nemo
+                nisi, numquam, voluptatibus dignissimos atque aspernatur soluta?
+                Rerum placeat iste fugit ducimus. Aliquam quo autem iste dicta!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="imgs/gumball.png" alt="" />
+        </div>
+      </div>
+      <div class="row text-center align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="imgs/sprinkles.png" alt="" />
+        </div>
+        <div class="col-md-6 order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img
+                class="d-none d-lg-inline"
+                src="imgs/lolli_icon.png"
+                alt=""
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptas voluptatibus minima commodi! Totam repudiandae aliquid
+                consequuntur vel, rem dolorum consequatur quaerat dolor nemo
+                nisi, numquam, voluptatibus dignissimos atque aspernatur soluta?
+                Rerum placeat iste fugit ducimus. Aliquam quo autem iste dicta!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -78,5 +159,14 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#main-navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>
